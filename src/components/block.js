@@ -33,6 +33,9 @@ export default class Block extends React.Component {
 			marginBottom: '-' + Config.get('blockHeight') / 2,
 			backgroundColor: 'hsl(250, 50%, 50%)',
 			position: 'absolute',
+			boxShadow: '0px 0px 5px 0px rgba(0,0,0,0.75)',
+			WebkitBoxShadow: '0px 0px 5px 0px rgba(0,0,0,0.75)',
+			MozBoxShadow:'0px 0px 5px 0px rgba(0,0,0,0.75)'
 		};
 
 		// console.log(this.props);
